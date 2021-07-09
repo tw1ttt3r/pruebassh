@@ -51,3 +51,28 @@ li > ul > * {
 html {
     font-size: 50px;
 } */
+
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+ul {
+   padding: 0; 
+}
+
+ul > li {
+    display: inline-block;
+    padding: 20px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
