@@ -6,38 +6,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Clase fullstack</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
-            <h1 style="display: inline;">Hola mundo</h1>
-            <h2 style="display: inline-block; width: 400px;">Hola mundo</h2>
+            <h1>Hola mundo</h1>
+            <h2>Hola mundo</h2>
             <h3>Hola mundo</h3>
             <h4>Hola mundo</h4>
             <h5>Hola mundo</h5>
             <h6>Hola mundo</h6>
             <a href="https://docs.github.com/es/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">SSH</a>
-            <section>
+            <div class="container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/zl91NnFHTkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
+            </div>
             <ol> 
                 <li>poner <!-- esto es un comentario  --> mayonesa</li>
                 <li>colocar jamon</li>
-                <li>colocar queso</li>
+                <li>queso</li>
                 <li>colocar jitomate</li>
                 <li>colocar la pieza de pan</li>
             </ol>
             <ul>
                 <li>poner mayonesa</li> <!-- etiqueta de cierre -->
                 <li>colocar jamon</li>
-                <li>colocar queso</li>
-                <li>colocar jitomate</li>
+                <li>
+                    <ul>
+                        <li>poner mayonesa</li> <!-- etiqueta de cierre -->
+                        <li>colocar jamon</li>
+                        <li>colocar queso</li>
+                        <li>colocar jitomate</li>
+                        <li>colocar la pieza de pan</li>
+                    </ul>
+                </li>
+                <li>
+                    <ol> 
+                        <li>poner <!-- esto es un comentario  --> mayonesa</li>
+                        <li>colocar jamon</li>
+                        <li>queso</li>
+                        <li>colocar jitomate</li>
+                        <li>colocar la pieza de pan</li>
+                    </ol>
+                </li>
                 <li>colocar la pieza de pan</li>
             </ul>
             <input type="text" />
             <hr>  <!-- etiqueta de auto cierre -->
             <br>
             <img src="" alt="">
-            <div>
+            <div class="container" id="parrafo">
                 <p>noencnwdcldnclkdlkcnslkncklsdnlkcnsdlkcnlksdclknnoencnwdnnlksdclknnoencnwdcldnclkdlkcnslkncklsdnlkcnsdlkcnlksdclknnoencnw</p>
             </div>
             <ul>
@@ -50,7 +67,7 @@
             </ul>
         </header>
         <form>
-            <input type="text">
+            <input class="container" type="text">
             <input type="password">
             <input type="checkbox">
             <input type="radio">
@@ -64,7 +81,7 @@
                 <option value="5">cinco</option>
             </select>
         </form>
-        <button>hola mundo</button>
+        <button class="container">hola mundo</button>
         <img src="https://assets.entrepreneur.com/content/3x2/2000/1607626854-perritos-covid1.jpg" alt="perrito">
     </body>
 </html>

@@ -1,0 +1,53 @@
+/*
+sintaxis
+selector {
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+} */
+
+/* Selector tagname */
+h1, h2 {
+    display: inline;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+/* Selector id */
+#parrafo {
+    background-color: green;
+}
+
+div {
+    background-color: red !important;
+}
+
+/* Selector de clase */
+.container {
+    background-color: blueviolet;
+}
+
+ul * {
+    font-size: 40px;
+}
+
+li * {
+    font-size: 5px;
+}
+
+li > ul > * {
+    font-size: 20px;
+}
+
+/* Selector universal */
+* {
+    font-size: 70px;
+}
+
+html {
+    font-size: 50px;
+}
