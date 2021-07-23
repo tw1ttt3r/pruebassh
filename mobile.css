@@ -1,0 +1,21 @@
+/* @media screen and (min-width: 375px) and (max-width: 768px) {
+    #container {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+    }
+
+    input {
+        width: 100%;
+    }
+} */
+
+#container {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+input {
+    width: 100%;
+}
