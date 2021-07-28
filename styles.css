@@ -8,12 +8,20 @@
 #figura:hover div {
   display: none;
 }
-#figura div {
+#figura > div:nth-child(1) {
   background-color: red;
   width: 200px;
   height: 200px;
 }
-#figura #conboton {
+#figura > div:nth-child(1)#conboton {
+  color: brown !important;
+}
+#figura > div:nth-child(2) {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+}
+#figura > div:nth-child(2)#conboton {
   color: brown !important;
 }
 
