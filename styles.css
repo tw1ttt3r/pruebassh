@@ -2,11 +2,19 @@
   width: 400px;
   height: 400px;
 }
-
-.items {
+#figura:hover {
+  background-color: aqua;
+}
+#figura:hover div {
+  display: none;
+}
+#figura div {
   background-color: red;
   width: 200px;
   height: 200px;
+}
+#figura #conboton {
+  color: brown !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

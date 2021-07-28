@@ -3,6 +3,23 @@
 #figura {
     width: $size;
     height: $size;
+
+    &:hover {
+        background-color: aqua;
+        div {
+            display: none;
+        }
+    }
+
+    div {
+        background-color: red;
+        width: $size_items;
+        height: $size_items;
+    }
+
+    #conboton {
+        color: brown !important;
+    }
 }
 
-@import 'clases';
+// @import 'clases';
